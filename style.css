@@ -38,7 +38,7 @@ p{
 
 .showcase::before{
     content:'';
-    background: url(/img/wallpaper.jpg) no-repeat center center/cover;
+    background: url(https://source.unsplash.com/random) no-repeat center center/cover;
     position: absolute;
     top: 0;
     left: 0;
