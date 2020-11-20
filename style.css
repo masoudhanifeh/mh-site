@@ -38,7 +38,7 @@ p{
 
 .showcase::before{
     content:'';
-    background: url('https://source.unsplash.com/1600x900/?programming,code') no-repeat center center/cover;
+    background: url('https://source.unsplash.com/1600x900/?programming') no-repeat center center/cover;
     position: absolute;
     top: 0;
     left: 0;
