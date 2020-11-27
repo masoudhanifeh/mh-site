@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    color: #fff;
+    font-family: roboto;
+    overflow: hidden;    
+}
+
+.social a{
+    color:#fff;
+    transition: 0.5s ease;
+}
+.social a:hover{
+    color: rgb(175, 175, 175);
+}
+
+.showcase{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    align-items: center;
+    justify-content: center;   
+    background-color: #000;
+    animation-name: start;
+    animation-duration: 2s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+@keyframes start{
+    from{
+
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.fade,
+i{
+    color:black;
+    animation-name: fade;
+    animation-delay: 2s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+@keyframes fade{
+    from{
+
+    }
+    to{
+        color:#fff;
+    }
+}
+
+.container{
+    grid-column: 3;
+    position: relative;
+    /* background-color: red; */
+    
+}
+
+.title{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    overflow: hidden;
+    margin-bottom: 0.5rem;
+}
+.title .start{
+    font-weight: 900;
+    font-size: 8rem;
+    line-height: 5rem;
+    margin-bottom: 0.3rem;
+    margin-right: 2.3rem;
+    /* background-color: red; */
+}
+.title .name{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 2.3rem;
+    /* background-color: red; */
+}
+
+.text{
+    position: relative;
+}
+.container p {
+    
+    text-align: justify;
+    line-height: 1.5rem;
+    
+    /* background-color:blue; */
+    display: inline-block;
+
+}
+.end{
+    font-size: 3rem;
+    font-weight: 900;
+    /* background-color: red; */
+    display: inline;
+    right: 0;
+    bottom: -1.3rem;
+    bottom: rem;
+    position: absolute;
+
+}
+
+
+
+.container .social{
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
